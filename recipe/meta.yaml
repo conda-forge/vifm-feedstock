@@ -1,6 +1,6 @@
 {% set name = "vifm" %}
-{% set version = "0.8.2" %}
-{% set sha256 = "8b466d766658a24d07fc2039a26fefc6a018f5653684a6035183ca79f02c211f" %}
+{% set version = "0.10.1" %}
+{% set sha256 = "99006f56db05e1bdfb7983e8d5c31c9ac93bf2ac9e0409a577c8ca660fecd03b" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
@@ -30,7 +30,7 @@ about:
   home: https://vifm.info/
   license: GPL-2.0
   license_file: COPYING
-  summary: 'Vifm is an ncurses based file manager with vi like keybindings'
+  summary: Vifm is an ncurses based file manager with vi like keybindings
 
 extra:
   recipe-maintainers:
