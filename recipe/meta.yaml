@@ -1,6 +1,6 @@
 {% set name = "vifm" %}
-{% set version = "0.8.2" %}
-{% set sha256 = "8b466d766658a24d07fc2039a26fefc6a018f5653684a6035183ca79f02c211f" %}
+{% set version = "0.14.2" %}
+{% set sha256 = "cd1b05d2543cdf6829d60b23bc225c6fde13d3ef7c1008f821b9209837f1e2b0" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
 
 build:
   number: 0
-  skip: True  # [win]
+  skip: true  # [win]
 
 requirements:
   build:
